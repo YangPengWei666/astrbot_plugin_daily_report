@@ -1,0 +1,27 @@
+{
+  "city_name": {
+    "description": "天气播报中的城市显示名称（如 北京市、上海市）",
+    "type": "string",
+    "default": "北京市"
+  },
+  "latitude": {
+    "description": "天气查询的纬度（如北京 39.90），精确到小数点后两位",
+    "type": "float",
+    "default": 39.90
+  },
+  "longitude": {
+    "description": "天气查询的经度（如北京 116.40），精确到小数点后两位",
+    "type": "float",
+    "default": 116.40
+  },
+  "enable_crypto": {
+    "description": "是否在早报中包含加密货币行情（关闭后早报只含天气+新闻+每日一言）",
+    "type": "bool",
+    "default": true
+  },
+  "crypto_symbols": {
+    "description": "要播报的币种交易对列表，用逗号分隔，如 BTCUSDT,ETHUSDT,DOGEUSDT（也支持添加 SOLUSDT、BNBUSDT 等币安交易对）",
+    "type": "string",
+    "default": "BTCUSDT,ETHUSDT,DOGEUSDT"
+  }
+}

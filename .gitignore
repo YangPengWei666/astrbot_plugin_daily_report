@@ -1,0 +1,9 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 测试/临时文件
+*.bak
+*.log
+.DS_Store

@@ -1,0 +1,7 @@
+name: astrbot_plugin_daily_report
+display_name: 每日早报
+desc: 每日早报：说"早"即收到天气（含冷热对比）+ 新闻 + 加密货币 + 每日一言，全部免费API零key零依赖
+help: 对机器人发送「早」「早上好」「早安」「早报」「morning」触发；天气城市与经纬度、加密货币开关与币种列表均可在插件配置中修改
+version: 5.0.0
+author: 小康助手
+repo: https://github.com/YangPengWei666/astrbot_plugin_daily_report
